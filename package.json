@@ -1,0 +1,38 @@
+{
+  "name": "react-native-dope-keyboard",
+  "version": "0.0.1",
+  "main": "dist/index.mjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react-native",
+    "keyboard",
+    "hook",
+    "keyboard-helper"
+  ],
+  "author": "Bato",
+  "license": "ISC",
+  "homepage": "https://github.com/username/react-native-dope-keyboard#readme",
+  "description": "Simple keyboard helpers for React Native",
+  "devDependencies": {
+    "@types/react": "^19.2.8",
+    "@types/react-native": "^0.72.8",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pikapikaa/react-native-dope-keyboard.git"
+  }
+}
