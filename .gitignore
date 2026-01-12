@@ -80,4 +80,43 @@ example/debug.log
 
 docs/
 dist/
+
+# Examples
 example/node_modules/
+example/.expo/
+example/dist/
+example/web-build/
+example/expo-env.d.ts
+
+# Native
+example/.kotlin/
+example/*.orig.*
+example/*.jks
+example/*.p8
+example/*.p12
+example/*.key
+example/*.mobileprovision
+
+# Metro
+example/.metro-health-check*
+
+# debug
+example/npm-debug.*
+example/yarn-debug.*
+example/yarn-error.*
+
+# macOS
+example/.DS_Store
+example/*.pem
+
+# local env files
+example/.env*.local
+
+# typescript
+example/*.tsbuildinfo
+
+example/app-example
+
+# generated native folders
+example/ios
+example/android
