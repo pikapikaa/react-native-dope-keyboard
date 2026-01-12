@@ -19,7 +19,7 @@
   ],
   "author": "Bato",
   "license": "ISC",
-  "homepage": "https://github.com/username/react-native-dope-keyboard#readme",
+  "homepage": "https://github.com/pikapikaa/react-native-dope-keyboard#readme",
   "description": "Simple keyboard helpers for React Native",
   "devDependencies": {
     "@types/react": "^19.2.8",
