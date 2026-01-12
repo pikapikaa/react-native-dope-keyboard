@@ -79,3 +79,5 @@ example/*.binlog
 example/debug.log
 
 docs/
+dist/
+example/node_modules/
