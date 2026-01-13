@@ -21,12 +21,6 @@
   "license": "ISC",
   "homepage": "https://github.com/pikapikaa/react-native-dope-keyboard#readme",
   "description": "Simple keyboard helpers for React Native",
-  "devDependencies": {
-    "@types/react": "^19.2.8",
-    "@types/react-native": "^0.72.8",
-    "tsup": "^8.5.1",
-    "typescript": "^5.9.3"
-  },
   "peerDependencies": {
     "react": "*",
     "react-native": "*"
@@ -34,5 +28,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/pikapikaa/react-native-dope-keyboard.git"
-  }
+  },
+  "yalcSig": "5b49b2cfa24ccd73868ea0e9c56ccdc8"
 }

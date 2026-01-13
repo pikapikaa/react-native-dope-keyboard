@@ -10,7 +10,7 @@ import { Link } from "expo-router";
 export default function HomeScreen() {
   return (
     <ParallaxScrollView
-      headerBackgroundColor={{ light: "#A1CEDC", dark: "#1D3D47" }}
+      headerBackgroundColor={{ light: "red", dark: "green" }}
       headerImage={
         <Image
           source={require("@/assets/images/partial-react-logo.png")}
@@ -19,7 +19,7 @@ export default function HomeScreen() {
       }
     >
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Welcome!</ThemedText>
+        <ThemedText type="title">Welcssssome!</ThemedText>
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
@@ -80,7 +80,7 @@ export default function HomeScreen() {
           to get a fresh <ThemedText type="defaultSemiBold">app</ThemedText>{" "}
           directory. This will move the current{" "}
           <ThemedText type="defaultSemiBold">app</ThemedText> to{" "}
-          <ThemedText type="defaultSemiBold">app-example</ThemedText>.
+          <ThemedText type="defaultSemiBold">app-exrdgetample</ThemedText>.
         </ThemedText>
       </ThemedView>
     </ParallaxScrollView>
